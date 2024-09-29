@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: linux
-          path: .$/{{ env.FILE_NAME }}
+          path: ./${{ env.FILE_NAME }}
 
       - name: upload artifact for windows
         uses: actions/upload-artifact@v4
